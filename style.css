@@ -1,0 +1,41 @@
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:'Inter',sans-serif;
+  background:#160006 url('bg.jpg') center/cover no-repeat fixed;
+  min-height:100vh;display:flex;justify-content:center;align-items:center;color:#fff;
+}
+
+.k4-small-card{
+  width:100%;max-width:360px;padding:44px 32px;text-align:center;
+  background:rgba(255,100,0,.08);
+  border:2px solid rgba(255,255,255,.15);
+  border-radius:24px;
+  box-shadow:0 10px 24px rgba(0,0,0,.48);
+  backdrop-filter:blur(18px) saturate(170%);
+}
+
+.k4-small-pfp{
+  width:160px;height:160px;border-radius:22px;object-fit:cover;
+  border:4px solid rgba(255,255,255,.35);
+  box-shadow:0 6px 22px rgba(0,0,0,.55);
+  margin-bottom:24px;
+}
+
+.k4-small-name{font-size:32px;font-weight:700;margin-bottom:6px}
+.k4-small-status{color:#7dff94;font-size:15px;font-weight:600;margin-bottom:6px}
+.k4-small-cta{font-size:14px;color:#eaeaea;margin-bottom:28px}
+
+.k4-small-btn{
+  display:block;width:100%;padding:17px 18px;margin:10px 0;
+  font-size:18px;font-weight:700;border-radius:13px;border:2px solid transparent;
+  text-decoration:none;color:#fff;transition:.16s;
+}
+.k4-small-btn:hover{transform:translateY(-3px);box-shadow:0 8px 20px rgba(0,0,0,.35);}
+.k4-small-btn:active{transform:translateY(0);box-shadow:0 4px 14px rgba(0,0,0,.30);}
+
+.k4-small-vip{
+  background:linear-gradient(135deg,#ff956b 0%,#ff4b5c 48%,#ff2b89 100%);
+  color:#001020;
+}
+.k4-small-tiktok{background:#000}
+.k4-small-x{background:#1d9bf0}
